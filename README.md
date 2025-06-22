@@ -26,13 +26,13 @@ CAN (Controller Area Network) is a robust serial communication protocol used in 
 - 📶 External interrupts to trigger switch inputs
 - 💡 CAN messages with specific IDs and data bytes
 ## 📂 FILE STRUCTURE:
-main_node.c ->	Reads temperature, gear input, sends window count via CAN
-window_node.c	-> Receives count and controls window via LEDs
-reverse_node.c ->	Reads distance sensor and sends alert via CAN
-types.h, can.h -> Header files for type definitions and CAN setup
-lcd.h, lcd_defines.h ->	LCD control logic and macros
-DS18B20_sens.h ->	Temperature sensor interface
-ext_int.h ->	External interrupt configuration
+- `main_node.c` ->	Reads temperature, gear input, sends window count via CAN
+- `window_node.c`	-> Receives count and controls window via LEDs
+- `reverse_node.c` ->	Reads distance sensor and sends alert via CAN
+- `types.h`, `can.h` -> Header files for type definitions and CAN setup
+- `lcd.h`, `lcd_defines.h` ->	LCD control logic and macros
+- `DS18B20_sens.h` ->	Temperature sensor interface
+- `ext_int.h` ->	External interrupt configuration
 ## ⚙️ HOW TO COMPILE & FLASH:
 ###  🛠️ SOFTWARE TOOLS REQUIRED:
 - Keil uVision (C Compiler)
