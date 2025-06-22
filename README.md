@@ -4,7 +4,7 @@ This project demonstrates a CAN (Controller Area Network) protocol-based vehicle
 - 🌡️ Engine Temperature Monitoring
 - ⚠️ Reverse Gear Alert System
 - 🪟 Window Glass Control (Up/Down)
-This system follows multi-node CAN communication where:
+* This system follows multi-node CAN communication where:
 - Main Node reads temperature and handles switching
 - Reverse Node reads proximity sensor
 - Window Node controls LEDs representing glass position
